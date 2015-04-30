@@ -2,11 +2,6 @@
 // --------------------------------------------------
 
 #masthead {
-	@include row;
-	@include media($large) {
-		@include span-columns(12);
-	}
-	background-color: #FFE4E1;
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
