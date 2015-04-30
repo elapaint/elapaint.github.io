@@ -10,8 +10,7 @@ email: elapaint88@gmail.com
 
 # Jekyll configuration
 
-paginate: 12
-paginate_path: "/articles/page:num/"
+
 
 
 
@@ -25,14 +24,10 @@ highlighter: pygments
 
 gems:
   - jekyll-sitemap
-  - jekyll-tagging
+  
 
  
-  
-tag_page_layout: tag_page
-tag_page_dir: tag
-tag_permalink_style: pretty
-ignored_tags: [tags,to,ignore]
+
 
 # Site owner
 owner:
