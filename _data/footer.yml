@@ -1,0 +1,20 @@
+# Footer navigation links
+
+- title: Home
+  url: 
+
+- title: Service
+  url: service/
+
+- title: Payment
+  url: payment/
+  
+
+- title: About
+  url: about/
+
+- title: Contact
+  url: contact/
+
+- title: FAQs
+  url: FAQs/

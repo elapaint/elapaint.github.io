@@ -1,0 +1,34 @@
+# Site navigation links
+
+- title: Gallery
+  url: media/
+  excerpt: ""
+  image: som.jpg
+
+- title: Blog
+  url: articles/
+  excerpt: ""
+  image: blog.jpg
+
+- title: Service
+  url: service/
+  excerpt: ""
+  image: ser.jpg
+
+- title: Payment
+  url: payment/
+  excerpt: ""
+  image: payment.jpg
+
+  
+- title: About
+  url: about/
+  excerpt: ""
+  image: paint.jpg
+
+- title: Contact
+  url: contact/
+  excerpt: ""
+  image: brush.jpg
+  
+

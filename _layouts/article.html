@@ -1,0 +1,72 @@
+---
+layout: default
+---
+
+<html>
+<head>
+<style type="text/css">
+td {padding-top: 100px}
+
+
+</style>
+</head>
+
+<body bgcolor="#FFFAFA">
+<table border="0">
+<tr>
+<td>
+<div id="main" role="main">			
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
+		
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+		</div>
+		
+		<div class="inner-wrap">
+		
+			
+			<div id="content" class="page-content" itemprop="articleBody">
+			{{ content }}
+				<hr />
+			
+			
+			
+				<footer class="page-footer">
+					{% if page.categories %}{% include page-author.html %}{% endif %}
+					{% if page.share != false %}{% include share-this.html %}{% endif %}
+					{% include page-meta.html %}
+				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+		<div class="test">
+			
+			
+			<a class="twitter-timeline" href="https://twitter.com/elapaint" data-widget-id="572381121132781568">Tweets by @elapaint</a>
+			<script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+			
+			
+		
+		
+		
+		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+</td>
+</tr>
+</table>
+</body>
+
+</html>

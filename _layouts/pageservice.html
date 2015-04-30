@@ -1,0 +1,109 @@
+---
+layout: default
+---
+
+<div id="main" role="main">			
+	<article class="wrap" itemscope itemtype="http://schema.org/Article">
+		{% if page.image.feature %}
+		<div class="page-feature">
+			<div class="page-image">
+				<img src="{{ site.url }}/images/{{ page.image.feature }}" class="page-feature-image" alt="{{ page.title }}" itemprop="image">
+				{% if page.image.credit %}{% include image-credit.html %}{% endif %}
+			</div><!-- /.page-image -->
+		</div><!-- /.page-feature -->
+		{% endif %}
+		{% if page.categories %}{% include breadcrumbs.html %}{% endif %}
+		
+		<div class="page-title">
+			<h1>{{ page.title }}</h1>
+		</div>
+		
+		<div class="inner-wrap">
+		
+			
+			<div id="content" class="page-content" itemprop="articleBody">
+			{{ content }}
+				<hr />
+			
+			
+			
+				<footer class="page-footer">
+					{% if page.categories %}{% include page-author.html %}{% endif %}
+					{% if page.share != false %}{% include share-this.html %}{% endif %}
+					{% include page-meta.html %}
+				</footer><!-- /.footer -->
+				<aside>
+					{% if page.comments == true %}{% include comments.html %}{% endif %}
+				</aside>
+			</div><!-- /.content -->
+		</div><!-- /.inner-wrap -->
+		
+		<div class="test">
+		
+		
+		<table width=30% style="border:3px dashed plum;" cellspacing="5" bgcolor="plum" cellpadding="5"><tr><td style="border:3px dashed white;" bgcolor="white">
+			
+				<h3 id="ordered-lists">วิธีการสั่งงานภาพวาด</h3>
+				<ol>
+					<li>กรอกรายละเอียดต่างๆ ลงในแบบฟอร์ม ทางเราจะทำการประเมินราคา และตอบกลับอีเมล์ภายใน 24 ชั่วโมง</li>
+					<li>การชำระเงิน หลังจากได้รับอีเมล์แจ้งราคาไฟล์ภาพ สามารถโอนเข้าบัญชีออมทรัพย์ ต่อไปนี้</li>
+					
+					
+					
+					<li>แจ้งการชำระเงิน โดยกรอกรายละเอียดการชำระเงินลงในแบบฟอร์มที่หน้า “แจ้งการชำระเงิน” </li>
+					<li>เมื่อแจ้งโอนเรียบร้อยแล้วทางเราจะทำการจัดส่งไฟล์ทางอีเมล์</li>
+				</ol>
+				
+			
+		</td></tr></table>	
+			
+	
+			
+		</div>
+		
+		
+		{% if page.ads == true %}<div class="ads">{% include advertising.html %}</div><!-- /.ads -->{% endif %}
+	</article><!-- ./wrap -->
+</div><!-- /#main -->
+
+	
+
+
+<script language=JavaScript> 
+<!-- 
+
+//Disable right mouse click Script 
+//By Maximus (maximus@nsimail.com) w/ mods by [drive] 
+//For full source code, visit http://www.[drive].com 
+
+var message="ห้าม copy น่ะ เจ้านาย"; 
+
+/////////////////////////////////// 
+function clickIE4(){ 
+if (event.button==2){ 
+alert(message); 
+return false; 
+} 
+} 
+
+function clickNS4(e){ 
+if (document.layers||document.getElementById&&!document.all){ 
+if (e.which==2||e.which==3){ 
+alert(message); 
+return false; 
+} 
+} 
+} 
+
+if (document.layers){ 
+document.captureEvents(Event.MOUSEDOWN); 
+document.onmousedown=clickNS4; 
+} 
+else if (document.all&&!document.getElementById){ 
+document.onmousedown=clickIE4; 
+} 
+
+document.oncontextmenu=new Function("alert(message);return false") 
+
+// --> 
+</script> 
