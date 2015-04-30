@@ -2,7 +2,6 @@
 // --------------------------------------------------
 
 #masthead {
-	position: fixed;
 	@include row;
 	@include media($large) {
 		@include span-columns(12);
