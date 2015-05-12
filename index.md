@@ -8,7 +8,7 @@ image:
 
 ---
 
-<div class="wrap" style="margin-top:5%">
+<div class="wrap" style="margin-top:8%">
 
 <div class="titles">
 {% for post in site.categories.media limit:8 %}
