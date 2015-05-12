@@ -4,7 +4,7 @@ permalink: /
 title: ""
 excerpt: ""
 image:
-  feature: two.jpg
+  feature: ban1.png
 
 ---
 
