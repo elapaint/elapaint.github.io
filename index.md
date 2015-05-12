@@ -19,7 +19,7 @@ image:
 
 <div class="wrap" style="margin-top:10%; margin-bottom:10%; color: gray; background:  ">
 
-<div class="content" style="margin-top:5%; margin-left: 20%; margin-right: 20%">
+
 <center>
 
 <h1><font color="#FE2E64">.. Trick And Trip ..</font></h1>
