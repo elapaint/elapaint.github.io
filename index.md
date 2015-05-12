@@ -27,11 +27,7 @@ image:
 
 <center><iframe width="560" height="315" src="https://www.youtube.com/embed/OKN7eeNYHho" frameborder="0" allowfullscreen></iframe></center>
 
-<div class="tiles tiles-3-4">
-{% for post in site.categories.articles limit:4 %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.tiles-3-4 -->
+
 
 
 
