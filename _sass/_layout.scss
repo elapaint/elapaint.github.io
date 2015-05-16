@@ -18,7 +18,7 @@
 	@include media($large) {
 		@include span-columns(4);
 	}
-	padding: (.20 * $masthead-height) 0; // fourth the height to center vertically
+	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	text-decoration: none;
 	color: #F7819F;
