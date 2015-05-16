@@ -35,12 +35,12 @@ image:
 </center>
 </div>
 
-<div class="archive-wrap">
-  <h3>Latest {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
-  <ul class="th-grid">
-  {% capture category_name %}{{ page.categories | first }}{% endcapture %}
-  {% for post in site.categories.[category_name] limit:4 %}
-    <li><a href="{{ site.url }}{{ post.url }}" title="{{ post.title }}"><img src="{{ site.url }}/images/{{ post.image.thumb }}" alt="ภาพวาดดิจิตอล"></a></li>
+<div class="wrap" style="margin-top:5%">
+<h6>โพสล่าสุด</h6>
+  <div class="tiles">
+  {% for post in site.related_posts limit:4 %}
+    {% include post-grid.html %}
   {% endfor %}
-  </ul>
-</div><!-- /.archive-wrap -->
+  </div>
+</div>
+
