@@ -87,7 +87,7 @@
 
 .top-menu {
 	display: none;
-	position: fixed;
+	position: relative;
 	@include media($medium) {
 		@include span-columns(12);
 	}
