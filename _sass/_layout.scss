@@ -2,6 +2,12 @@
 // --------------------------------------------------
 
 #masthead{
+	position:fixed; 
+	top:0px; 
+	margin:auto; 
+	z-index:100000; 
+	width:100%;}
+{
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
