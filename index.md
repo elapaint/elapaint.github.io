@@ -36,7 +36,7 @@ image:
 </div>
 
 <h4>โพสล่าสุด</h4>
-<div class="titles>
+<div class="titles">
 {% for post in site.related_posts limit:4 %}
 {% endfor %}
 </div>
