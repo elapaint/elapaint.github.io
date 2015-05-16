@@ -6,8 +6,13 @@
   			<li><a href="{{ link.url }}">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
   		{% endfor %}
   		</ul>
-  		
-  	</nav><!-- /.menu -->
+	</nav><!-- /.menu -->
+	
+	<ul class="social-links">
+  		{% for link in site.data.footer %}
+  			<li><a href="{{ link.url }}">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
+  		{% endfor %}
+  		</ul>
   	
   </div>
 </footer>
