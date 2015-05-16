@@ -37,5 +37,5 @@ image:
 
 <h4>Related Posts</h4>
 <ul>
-   {% for post in site.related_posts limit:4 %}
+  
 </ul>
