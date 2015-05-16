@@ -36,11 +36,10 @@ image:
 </div>
 
 
-<h6>โพสล่าสุด</h6>
-  <div class="tiles">
-  {% for post in site.categories.posts limit:4 %}
+h3>โพสล่าสุด</h3>
+  <div class="titles">
+  {% for post in site.related_posts limit:4 %}
     {% include post-grid.html %}
   {% endfor %}
   </div>
-
 
