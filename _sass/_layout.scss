@@ -2,8 +2,11 @@
 // --------------------------------------------------
 
 #masthead{
-	padding: $gutter;
-	z-index: 5;
+	margin-bottom: 0px;
+	background: #000;
+	height: 167px;
+	width:500px;
+	position:fixed;
 	@include transform(translate(0,0));
 	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
 	&.slide {
