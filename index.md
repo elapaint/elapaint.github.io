@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: "เว็บไซต์แสดงผลงานวาดภาพดิจิตอล"
+title: ""
 excerpt: ""
 image:
   feature: ban2.png
@@ -33,6 +33,13 @@ image:
 
 <p>ไฟล์ภาพวาดที่คุณซื้อไปสามารถนำไปต่อยอดในงานต่างๆ ไม่ว่าจะเป็น โปสการ์ด, ปริ้นลงผ้าใบ, ปริ้นลงเสื้อ, ลายแก้วน้ำ และอีกหลายอย่างที่คุณต้องการ สำหรับ Elapaint การวาดภาพคือการได้ทำในสิ่งที่รัก งานทุกชิ้นที่เราได้สร้างสรรค์ขึ้น เกิดจากความปราณีตและความตั้งใจจริงทุกชิ้น</p>
 </center>
+</div>
+
+<div class="titles">
+{% for post in site.categories.media limit:8 %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.titles -->
 </div>
 
 
