@@ -38,7 +38,7 @@ image:
 
 <h3>โพสล่าสุด</h3>
   <div class="titles">
-  {% for post in site.related_posts limit:4 %}
+  {% for post in site.categories.article limit:4 %}
     {% include post-grid.html %}
   {% endfor %}
   </div>
