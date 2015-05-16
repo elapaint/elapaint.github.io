@@ -37,7 +37,5 @@ image:
 
 <h4>Related Posts</h4>
 <ul>
-  {% for post in site.related_posts limit:4 %}
-  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
+   {% for post in site.related_posts limit:4 %}
 </ul>
