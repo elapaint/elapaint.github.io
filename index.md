@@ -36,6 +36,7 @@ image:
 </div>
 
 <h4>โพสล่าสุด</h4>
-{% for post in site.related_posts %}
-  <a href="{{ post.url }}">{{post.title }}</a><br />
+<div class="titles>
+{% for post in site.related_posts limit:4 %}
 {% endfor %}
+</div>
