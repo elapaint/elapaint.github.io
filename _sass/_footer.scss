@@ -74,76 +74,15 @@
 
 /* Social network links */
 
+.social-links {
+  clear: left;
+  @include media($large) {
+    float: right;
+    clear: none;
+  }
+  li {
+    a {
 
-
-.social-icons {
-  list-style: none;
-  margin: 0;
-  padding: 0;
-}
-.social-icons li {
-  display: inline-block;
-  margin: 0 0.25em;
-}
-.social-icons span {
-  display: block;
-  width: 0;
-  height: 0;
-  overflow: hidden;
-}
-.social-icons a {
-  display: inline-block;
-  width: 2.5em;
-  height: 2.5em;
-  border-radius: 50%;
-  text-decoration: none;
-  color: white;
-  text-align: center;
-}
-.social-icons a:before {
-  font: 1.5em/1.75 "FontAwesome";
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-.social-icons a[href*="twitter"] {
-  background-color: #55acee;
-}
-.social-icons a[href*="twitter"]:before {
-  content: "";
-}
-.social-icons a[href*="google"] {
-  background-color: #dd4b39;
-}
-.social-icons a[href*="google"]:before {
-  content: "";
-}
-.social-icons a[href*="facebook"] {
-  background-color: #3b5998;
-}
-.social-icons a[href*="facebook"]:before {
-  content: "";
-}
-.social-icons a[href*="github"] {
-  background-color: #231f20;
-}
-.social-icons a[href*="github"]:before {
-  content: "";
-}
-.social-icons a[href*="linkedin"] {
-  background-color: #0977b5;
-}
-.social-icons a[href*="linkedin"]:before {
-  content: "";
-}
-.social-icons a[href*="dribbble"] {
-  background-color: #ea4c89;
-}
-.social-icons a[href*="dribbble"]:before {
-  content: "";
-}
-.social-icons a[href*="rss"] {
-  background-color: #ff6600;
-}
-.social-icons a[href*="rss"]:before {
-  content: "";
+    }
+  }
 }
