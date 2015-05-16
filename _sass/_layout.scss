@@ -2,7 +2,6 @@
 // --------------------------------------------------
 
 #masthead{
-	position: fixed;
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
