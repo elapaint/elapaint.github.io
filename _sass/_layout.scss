@@ -21,7 +21,10 @@
 	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
 	height: $masthead-height;
 	background-image: url('https://github.com/elapaint/elapaint.github.io/blob/master/images/logo.jpg?raw=true');
-	
+	position: absolute;
+	top: 72px; 
+	height: 75px;
+	width: 100px;
 	
 }
 
