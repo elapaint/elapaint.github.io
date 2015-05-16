@@ -1,12 +1,12 @@
 <footer role="contentinfo" id="site-footer">
- <div class="wrap">
+ <div class="wrap"><center>
  <nav role="navigation" class="menu">
   		<ul class="footer-links">
   		{% for link in site.data.footer %}
   			<li><a href="{{ link.url }}">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
   		{% endfor %}
   		</ul>
-	</nav><!-- /.menu -->
+	</nav></center><!-- /.menu -->
 </div>
  
 	<div class="wrap" style="margin-top:10%">
