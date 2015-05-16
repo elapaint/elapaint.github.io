@@ -1,16 +1,16 @@
 <footer role="contentinfo" id="site-footer">
-  <div class="wrap"><center>
-  <nav role="navigation" class="menu">
+  <div class="wrap">
+  <center><nav role="navigation" class="menu">
   		<ul class="footer-links">
   		{% for link in site.data.footer %}
   			<li><a href="{{ link.url }}">{% if link.icon %}<i class="fa {{ link.icon }}"></i> {% endif %}{{ link.title }}</a></li>
   		{% endfor %}
   		</ul>
-	</nav><!-- /.menu -->
+	</nav></center><!-- /.menu -->
  
 	
 	<div class="social-links">
-  		<a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');">
+  		<center><a href="https://twitter.com/{{ site.owner.twitter }}" onclick="ga('send', 'event', 'link', 'click', 'Twitter follow');">
   				<span class="twitter fa-stack fa-lg">
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-twitter fa-stack-1x fa-inverse"></i>
@@ -51,8 +51,8 @@
   				  <i class="fa fa-circle fa-stack-2x"></i>
   				  <i class="fa fa-rss fa-stack-1x fa-inverse"></i>
   				</span>
-  			</a>
+  			</a></center>
   	</div>
   	
- </center></div>
+ </div>
 </footer>
