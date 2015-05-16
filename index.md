@@ -35,11 +35,8 @@ image:
 </center>
 </div>
 
-
-<h3>โพสล่าสุด</h3>
-  <div class="titles">
-  {% for post in site.categories.post limit:4 %}
-    {% include post-grid.html %}
-  {% endfor %}
-  </div>
-
+<div class="titles">
+{% for post in site.categories.articles limit:8 %}
+  {% include post-grid.html %}
+{% endfor %}
+</div><!-- /.titles -->
