@@ -25,7 +25,7 @@
 	font-family: $alt-font;
 	font-weight: 700;
 	@include font-size(30,no);
-	line-height: .8 * $masthead-height; // half the height to center vertically
+	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
 
@@ -313,6 +313,8 @@
 	// expand image to cover full width of header
 	img {
 		width: 100%;
+		margin-top: 10px;
+		
 	}
 }
 // make image flush with edges on small screens
