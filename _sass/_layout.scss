@@ -18,15 +18,10 @@
 	@include media($large) {
 		@include span-columns(4);
 	}
-	padding: (.25 * $masthead-height) 0; // fourth the height to center vertically
-	height: $masthead-height;
-	text-decoration: none;
-	color: #F7819F;
-	font-family: $alt-font;
-	font-weight: 700;
-	@include font-size(30,no);
-	line-height: .5 * $masthead-height; // half the height to center vertically
-	text-transform: uppercase;
+	background-image: url("https://github.com/elapaint/elapaint.github.io/blob/master/images/logo.jpg?raw=true");
+	background-repeat: no-repeat;
+	background-position: center top;
+	background-attachment: fixed;
 }
 
 
