@@ -2,15 +2,13 @@
 // --------------------------------------------------
 
 #masthead{
-	
-  position: fixed;
-  top: 0;
-  left: 0;
-  z-index: 9999;
-  width: 100%;
-  height: 50px;
-  background-color: #00a087;
-}
+	padding: $gutter;
+	z-index: 5;
+	@include transform(translate(0,0));
+	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+	&.slide {
+		@include transform(translate(-1600px,0));
+	}
 	.inner-wrap {
 		@include outer-container;
 	}
