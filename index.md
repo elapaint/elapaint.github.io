@@ -35,7 +35,7 @@ image:
 </center>
 </div>
 
-<h3>Read This Next</h3>
+<h6>โพสล่าสุด</h6>
   <div class="tiles">
   {% for post in site.related_posts limit:4 %}
     {% include post-grid.html %}
