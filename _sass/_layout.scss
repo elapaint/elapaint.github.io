@@ -503,3 +503,12 @@
 	}
 }
 
+footersocial {
+	@include outer-container;
+	margin-top: (3 * (0px + $doc-line-height));
+	margin-top: (3 * (0rem + ($doc-line-height / $doc-font-size)));
+	padding-bottom: $gutter;
+	font-family: $alt-font;
+	
+}
+
