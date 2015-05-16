@@ -1,16 +1,14 @@
 // MASTHEAD
 // --------------------------------------------------
 
-#header.logo {
-  background-color: transparent;
-  background-image: url('http://www.futhead.com/static//img/14/clubs/1887.png');
-  background-position: center top;
-  background-repeat: no-repeat;
-  position: absolute;
-  top: 72px; 
-  height: 256px;
-  width: 256px;
-}
+#masthead{
+	padding: $gutter;
+	z-index: 5;
+	@include transform(translate(0,0));
+	@include transition(500ms cubic-bezier(.645,.045,.355,1.000));
+	&.slide {
+		@include transform(translate(-1600px,0));
+	}
 	.inner-wrap {
 		@include outer-container;
 	}
