@@ -36,8 +36,6 @@ image:
 </div>
 
 <h4>โพสล่าสุด</h4>
-<div class="titles">
-{% for post in site.categories.articles limit:4 %}
-  {% include post-grid.html %}
+{% for post in site.related_posts %}
+  <a href="{{ post.url }}">{{post.title }}</a><br />
 {% endfor %}
-</div><!-- /.titles -->
