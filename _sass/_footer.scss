@@ -74,13 +74,7 @@
 
 /* Social network links */
 
-@import "//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.0.3/css/font-awesome.min.css";
 
-@mixin font-smoothing() {
-  // Font antialising on Mac OS X
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
 
 .social-links {
   list-style: none;
