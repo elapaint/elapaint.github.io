@@ -35,9 +35,12 @@ image:
 </center>
 </div>
 
-<h4>โพสล่าสุด</h4>
-<div class="titles">
-{% for post in site.categories.articles limit:4 %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.titles -->
+
+<div class="related-posts">
+  <h4>โพสล่าสุด</h4>
+  <div class="titles">
+  {% for post in site.related_posts limit:4 %}
+    {% include post-grid.html %}
+  {% endfor %}
+  </div>
+</div>
