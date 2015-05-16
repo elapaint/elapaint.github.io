@@ -1,8 +1,7 @@
 // MASTHEAD
 // --------------------------------------------------
 
-#masthead {
-	position: fixed;
+#masthead-fixed-top {
 	padding: $gutter;
 	z-index: 5;
 	@include transform(translate(0,0));
