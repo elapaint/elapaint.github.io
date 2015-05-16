@@ -35,8 +35,9 @@ image:
 </center>
 </div>
 
-<h4>โพสล่าสุด</h4>
-{% for related_post in article.related_posts %}
-        <li><a href="{{ site.url }}/{{ related_post.url }}">{{ related_post.title }}</a></li>
-    {% endfor %}
-</div>
+<h4>Related Posts</h4>
+<ul>
+  {% for post in site.related_posts limit:4 %}
+  <li><a href="{{ BASE_PATH }}{{ post.url }}">{{ post.title }}</a></li>
+  {% endfor %}
+</ul>
