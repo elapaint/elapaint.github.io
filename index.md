@@ -35,12 +35,10 @@ image:
 </center>
 </div>
 
-<div class="titles">
-{% for post in site.categories.media limit:8 %}
-  {% include post-grid.html %}
-{% endfor %}
-</div><!-- /.titles -->
-</div>
-
-
+<h3>Read This Next</h3>
+  <div class="tiles">
+  {% for post in site.related_posts limit:4 %}
+    {% include post-grid.html %}
+  {% endfor %}
+  </div>
 
