@@ -1,7 +1,7 @@
 ---
 layout: archive
 permalink: /
-title: ""
+title: "เว็บไซต์แสดงผลงานวาดภาพดิจิตอล"
 excerpt: ""
 image:
   feature: ban2.png
