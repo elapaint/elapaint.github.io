@@ -55,7 +55,7 @@ td {padding-top: 40px}
 
 	
 			<h6>โพสล่าสุด</h6>
-			{% for post in site.categories.articles limit:8 %}
+			{% for post in site.categories.articles limit:4 %}
 			{% include post-list.html %}
 			{% endfor %}
 			<hr noshade size="1" align="center" color="FFCCCC"> 
