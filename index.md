@@ -36,8 +36,3 @@ image:
 </div>
 
 
- <div class="titles">
-{% for post in site.categories.articles limit:3 %}
-  {% include post-list-bullets.html %}
-{% endfor %}
-</div><!-- /.titles -->
