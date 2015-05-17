@@ -35,12 +35,6 @@ image:
 
 </div>
 
-<h3>Latest {{ page.categories | first | replace: '-',' ' | capitalize }}</h3>
-<ul>
-{% capture category_name %}{{ page.categories | first }}{% endcapture %}
-{% for post in site.categories.articles limit:3 %}
-  <li><a href="{{ site.url }}{{ post.url }}">{{ post.title }}</a></li>
-{% endfor %}
-</ul>
+
 
 
