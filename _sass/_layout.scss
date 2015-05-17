@@ -219,10 +219,10 @@
 		margin-top: $gutter;
 		margin-left: 5;
 		margin-right: -$gutter;
-		padding: 5px 0 20px;
-		background: #FFFFFF($border-color,5);
+		padding: 10px 0 20px;
+		background: #FFFAFA($border-color,5);
 		@include media($medium) {
-			@include span-columns(4);
+			@include span-columns(5);
 			margin-left: 0;
 			margin-right: 0;
 		}
