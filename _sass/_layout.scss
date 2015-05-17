@@ -220,7 +220,7 @@
 		margin-left: 5;
 		margin-right: -$gutter;
 		padding: 10px 0 20px;
-		background: #FFFAFA($border-color,5);
+		background: #FF6699($border-color,5);
 		@include media($medium) {
 			@include span-columns(4);
 			margin-left: 0;
