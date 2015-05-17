@@ -17,7 +17,6 @@ image:
 </div><!-- /.titles -->
 </div>
 
-<div class="wrap" style="margin-top:10%; margin-bottom:10%; color: gray; background:  ">
 
 <div class="content" style="margin-top:5%; margin-left: 20%; margin-right: 20%">
 <center>
@@ -33,9 +32,8 @@ image:
 
 <p>ไฟล์ภาพวาดที่คุณซื้อไปสามารถนำไปต่อยอดในงานต่างๆ ไม่ว่าจะเป็น โปสการ์ด, ปริ้นลงผ้าใบ, ปริ้นลงเสื้อ, ลายแก้วน้ำ และอีกหลายอย่างที่คุณต้องการ สำหรับ Elapaint การวาดภาพคือการได้ทำในสิ่งที่รัก งานทุกชิ้นที่เราได้สร้างสรรค์ขึ้น เกิดจากความปราณีตและความตั้งใจจริงทุกชิ้น</p>
 </center>
+
 </div>
 
-<h4>Related Posts</h4>
-<ul>
+
   
-</ul>
