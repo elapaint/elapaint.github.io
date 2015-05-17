@@ -32,13 +32,13 @@ gems:
 # Site owner
 owner:
   name: elapaint
-  web: http://mademistakes.com
-  email: michael@mademistakes.com
+  web: http://elapaint.github.io/
+  email: elapaint88@gmail
   twitter: elapaint
   bio: "Just another girl who love painting and art."
   avatar: bio-photo.png # 160x160 px image for author byline
   google:
-    plus: +MichaelRoseDesign
+    plus: 
     ad-client: ca-pub-7328585512091257
     ad-slot: 3049671934
     google_analytics_ua: "UA-59843792-1" # Google Analytics site specific id
