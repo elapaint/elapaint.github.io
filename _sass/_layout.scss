@@ -121,6 +121,27 @@
 	}
 }
 
+// PAGE WRAP MINI
+// --------------------------------------------------
+#mini{
+	@include media($medium) {
+		@include span-columns(12);
+	}
+	@include media($large) {
+		@include span-columns(3);
+}
+
+
+
+
+
+
+#main {
+	.inner-wrap {
+		@include media($medium) {
+			@include span-columns(7);
+
+
 
 // PAGE WRAPPER
 // --------------------------------------------------
