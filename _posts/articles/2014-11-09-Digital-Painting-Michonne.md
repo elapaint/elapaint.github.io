@@ -1,6 +1,6 @@
 ---
 layout: article
-title: "Digital Painting - Michonne (The Walking Dead)"
+title: "วีดีโอ ดิจิตอลเพ้นท์ติ้ง มิชชอนจาก The Walking Dead"
 modified:
 categories: articles
 excerpt: ใครเป็นแฟนคลับ The walking dead บ้างคะ
