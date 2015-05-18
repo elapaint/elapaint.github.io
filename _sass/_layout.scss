@@ -219,12 +219,12 @@
 		margin-top: 0;
 		margin-left: 5;
 		margin-right: -$gutter;
-		padding: 10px 0 10px;
+		padding: 10px 0 20px;
 		background: #FFFAFA($border-color,5);
 		@include media($medium) {
 			@include span-columns(4);
 			margin-left: 0;
-			margin-right: 0;
+			margin-right: 5;
 		}
 		&:after {
 			content: '';
