@@ -218,8 +218,8 @@
 		text-align: left;
 		margin-top: 0;
 		margin-left: 5;
-		margin-right: 5;
-		padding: 10px 0 20px;
+		margin-right: -$gutter;
+		padding: 10px 0 10px;
 		background: #FFFAFA($border-color,5);
 		@include media($medium) {
 			@include span-columns(4);
