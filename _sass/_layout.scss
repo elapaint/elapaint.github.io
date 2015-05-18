@@ -24,7 +24,7 @@
 	color: #F7819F;
 	font-family: $alt-font;
 	font-weight: 700;
-	@include font-size(20,no);
+	@include font-size(30,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
 	text-transform: uppercase;
 }
@@ -220,7 +220,7 @@
 		margin-left: 5;
 		margin-right: -$gutter;
 		padding: 10px 0 20px;
-		background: #FFFAFA($border-color,5);
+		background: #FFFAFA;
 		@include media($medium) {
 			@include span-columns(4);
 			margin-left: 0;
