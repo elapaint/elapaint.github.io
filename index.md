@@ -11,8 +11,7 @@ image:
 <div class="wrap" style="margin-top:5%">
 
 {% include gg.html %}
-<body bgcolor="#FFFAFA">
-<br><br>
+<br><br><br>
 
 <div class="titles">
 {% for post in site.categories.media limit:8 %}
