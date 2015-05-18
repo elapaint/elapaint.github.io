@@ -1,5 +1,5 @@
 ---
-layout: article
+layout: howtoorder
 title: ""
 date: 
 modified:
