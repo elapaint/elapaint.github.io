@@ -1,6 +1,6 @@
 ---
 layout: pagehowtopay
-title: ""
+title: "วิธีการชำระเงิน"
 date: 
 modified:
 excerpt:
