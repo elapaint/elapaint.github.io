@@ -1,25 +1,25 @@
 # Footer navigation links
 
-- title: Home
+- title: หน้าแรก
   url: 
   
-- title: Gallery
+- title: แกลลอรี่
   url: media/
   
  
-- title: Blog
+- title: บล็อก
   url: /articles
   
-- title: Service
+- title: รับวาดภาพ
   url: service/
 
-- title: Payment
+- title: การชำระเงิน
   url: payment/
   
 
-- title: About
+- title: เกี่บวกับเรา
   url: about/
 
-- title: Contact
+- title: ติดต่อเรา
   url: contact/
 
