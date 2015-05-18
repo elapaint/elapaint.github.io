@@ -11,6 +11,7 @@ image:
 <div class="wrap" style="margin-top:5%">
 
 {% include gg.html %}
+<body bgcolor="#FFFAFA">
 <br><br>
 
 <div class="titles">
