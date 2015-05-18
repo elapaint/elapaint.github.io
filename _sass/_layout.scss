@@ -93,7 +93,7 @@
 		@include span-columns(12);
 	}
 	@include media($large) {
-		@include span-columns(7);
+		@include span-columns(8);
 		ul {
 			position: absolute;
 			right: 0;
@@ -106,7 +106,7 @@
 	li {
 		a {
 			font-weight: 700;
-			@include font-size(25,no);
+			@include font-size(16,no);
 			line-height: .5 * $masthead-height; // half the height to center vertically
 			color: #F7819F;
 			text-transform: uppercase;
