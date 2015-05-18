@@ -24,6 +24,8 @@ image:
 <h1><font color="#FE2E64">.. Trick And Trip ..</font></h1>
 <br><br>
 
+<center><iframe width="560" height="315" src="https://www.youtube.com/embed/OKN7eeNYHho" frameborder="0" allowfullscreen></iframe></center>
+
 <center><br><br><p>
 เว็บไซต์สำหรับคนที่หลงใหลในงานภาพวาดดิจิตอล ให้คุณได้เข้ามาชมผลงานภาพวาดดิจิตอล ทั้งยังเป็นแหล่งรวบรวมเทคนิคในการวาดภาพ และเครื่องมือที่จะช่วยให้การวาดภาพของคุณง่ายขึ้น สำหรับใครที่สนใจจะเลือกซื้อ หรือใช้บริการวาดภาพ <font color="#F7819F">Digital Portrait</font> งานดี ภาพน่ารัก ราคาเป็นกันเอง สามารถติดต่อได้ผ่านทางเว็บไซต์ เราบริการด้วยความสุภาพและจริงใจ <font color="#FF0040">♥♥</font></p>
 
