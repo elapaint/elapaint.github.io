@@ -1,32 +1,32 @@
 # Site navigation links
 
-- title: Gallery
+- title: แกลลอรี่ 
   url: media/
   excerpt: ""
   image: som.jpg
 
-- title: Blog
+- title: บทความ
   url: articles/
   excerpt: ""
   image: blog.jpg
 
-- title: Service
+- title: สั่งงานวาดภาพ
   url: service/
   excerpt: ""
   image: ser.jpg
 
-- title: Payment
+- title: การชำระเงิน
   url: payment/
   excerpt: ""
   image: payment.jpg
 
   
-- title: About
+- title: เกี่ยวกับเรา 
   url: about/
   excerpt: ""
   image: paint.jpg
 
-- title: Contact
+- title: ติดต่อเรา
   url: contact/
   excerpt: ""
   image: brush.jpg
