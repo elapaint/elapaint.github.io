@@ -10,6 +10,9 @@ image:
 
 <div class="wrap" style="margin-top:5%">
 
+{% include gg.html %}
+<br><br>
+
 <div class="titles">
 {% for post in site.categories.media limit:8 %}
   {% include post-grid.html %}
