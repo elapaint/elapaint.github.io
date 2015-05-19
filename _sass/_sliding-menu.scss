@@ -87,7 +87,7 @@
 		}
 		.title {
 			display: block;
-			font-family: $max_pinjohnv2regular;
+			font-family: $alt-font;
 			@include font-size(32,no);
 			font-weight: 700;
 			@include media($medium) {
