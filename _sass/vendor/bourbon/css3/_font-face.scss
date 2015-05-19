@@ -1,23 +1,15 @@
 // Order of the includes matters, and it is: normal, bold, italic, bold+italic.
 
-@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false ) {
-  @font-face {
-    font-family: $max_pinjohn_v2-webfont;
-    font-weight: $weight;
-    font-style: $style;
+@mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false ) 
 
-    @if $asset-pipeline == true {
-      src: local('fonts')('max_pinjohn_v2-webfont.eot');
-      src: local('fonts')('max_pinjohn_v2-webfont.eot?#iefix')          format('embedded-opentype'),
-           local('fonts')('max_pinjohn_v2-webfont.woff')                format('woff'),
-           local('fonts')('max_pinjohn_v2-webfont.ttf')                 format('truetype'),
-           local('fonts')('#{$file-path}.svg##{$font-family}') format('svg');
-    } @else {
-      src: local('fonts')('max_pinjohn_v2-webfont.eot.eot');
-      src: local('fonts')('max_pinjohn_v2-webfont.eot#{$file-path}.eot?#iefix')               format('embedded-opentype'),
-           local('fonts')('max_pinjohn_v2-webfont.eot.woff')                     format('woff'),
-           local('fonts')('max_pinjohn_v2-webfont.eot.ttf')                      format('truetype'),
-           local('fonts')('#{$file-path}.svg##{$font-family}')      format('svg');
-    }
-  }
+@font-face {
+    font-family: 'max_pinjohnv2regular';
+    src: url('max_pinjohn_v2-webfont.eot');
+    src: url('max_pinjohn_v2-webfont.eot?#iefix') format('embedded-opentype'),
+         url('max_pinjohn_v2-webfont.woff2') format('woff2'),
+         url('max_pinjohn_v2-webfont.woff') format('woff'),
+         url('max_pinjohn_v2-webfont.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+
 }
