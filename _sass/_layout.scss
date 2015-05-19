@@ -22,7 +22,7 @@
 	height: $masthead-height;
 	text-decoration: none;
 	color: #F7819F;
-	font-family: 'max_pinjohnv2regular';
+	font-family: max_pinjohnv2regular;
 	font-weight: 700;
 	@include font-size(30,no);
 	line-height: .5 * $masthead-height; // half the height to center vertically
@@ -222,7 +222,7 @@
 		padding: 10px 0 20px;
 		background: #FFFAFA($border-color,5);
 		@include media($medium) {
-			@include span-columns(3);
+			@include span-columns(4);
 			margin-left: 0;
 			margin-right: 0;
 		}
