@@ -1,10 +1,10 @@
 ---
 layout: article
-title: "Adobe Ideas แอพวาดภาพจาก Adobe"
+title: "Adobe Ideas แอพวาดภาพจดิจิตอลจาก  Adobe"
 date: 2015-03-31
 categories: articles
-excerpt: แอพพลิเคชั่นเดียววาดภาพที่ใช้ได้ทั้งบน iPhone และ iPad
-tags: [Application]
+excerpt: แอพพลิเคชั่นเดียววาดภาพได้ทั้งบน iPhone และ iPad
+tags: [ภาพวาดดิจิตอล, แอพลิเคชั่น]
 image:
   feature: 
   teaser: AdobeIdeas.png
