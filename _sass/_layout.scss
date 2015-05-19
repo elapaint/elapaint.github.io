@@ -222,7 +222,7 @@
 		padding: 10px 0 20px;
 		background: #FFFAFA($border-color,5);
 		@include media($medium) {
-			@include span-columns(4);
+			@include span-columns(3);
 			margin-left: 0;
 			margin-right: 0;
 		}
