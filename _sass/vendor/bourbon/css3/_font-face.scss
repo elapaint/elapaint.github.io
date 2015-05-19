@@ -7,17 +7,17 @@
     font-style: $style;
 
     @if $asset-pipeline == true {
-      src: url('max_pinjohn_v2-webfont.eot');
-      src: font-url('max_pinjohn_v2-webfont.eot?#iefix')          format('embedded-opentype'),
-           font-url('max_pinjohn_v2-webfont.woff')                format('woff'),
-           font-url('max_pinjohn_v2-webfont.ttf')                 format('truetype'),
-           font-url('#{$file-path}.svg##{$font-family}') format('svg');
+      src: local('fonts')('max_pinjohn_v2-webfont.eot');
+      src: local('fonts')('max_pinjohn_v2-webfont.eot?#iefix')          format('embedded-opentype'),
+           local('fonts')('max_pinjohn_v2-webfont.woff')                format('woff'),
+           local('fonts')('max_pinjohn_v2-webfont.ttf')                 format('truetype'),
+           local('fonts')('#{$file-path}.svg##{$font-family}') format('svg');
     } @else {
-      src: url('max_pinjohn_v2-webfont.eot.eot');
-      src: url('max_pinjohn_v2-webfont.eot#{$file-path}.eot?#iefix')               format('embedded-opentype'),
-           url('max_pinjohn_v2-webfont.eot.woff')                     format('woff'),
-           url('max_pinjohn_v2-webfont.eot.ttf')                      format('truetype'),
-           url('#{$file-path}.svg##{$font-family}')      format('svg');
+      src: local('fonts')('max_pinjohn_v2-webfont.eot.eot');
+      src: local('fonts')('max_pinjohn_v2-webfont.eot#{$file-path}.eot?#iefix')               format('embedded-opentype'),
+           local('fonts')('max_pinjohn_v2-webfont.eot.woff')                     format('woff'),
+           local('fonts')('max_pinjohn_v2-webfont.eot.ttf')                      format('truetype'),
+           local('fonts')('#{$file-path}.svg##{$font-family}')      format('svg');
     }
   }
 }
