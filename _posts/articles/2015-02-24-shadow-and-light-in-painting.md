@@ -28,7 +28,7 @@ image:
 
 <div class="fb-comments" data-href="http://www.elapaint.com//articles/shadow-and-light-in-painting/" data-numposts="5" data-colorscheme="light"></div>
 
-<div class="fb-like" data-href="http://www.elapaint.com//articles/shadow-and-light-in-painting/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false
+<div class="fb-like" data-href="http://www.elapaint.com//articles/shadow-and-light-in-painting/" data-layout="standard" data-action="like" data-show-faces="true" data-share="false</div>
 
 
 
