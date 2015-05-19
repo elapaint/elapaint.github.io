@@ -1,6 +1,6 @@
 # Site navigation links
 
-- title: แกลลอรี่ 
+- title: รูปภาพ 
   url: media/
   excerpt: ""
   image: som.jpg
@@ -15,16 +15,18 @@
   excerpt: ""
   image: ser.jpg
 
+- title: สั่งงาน 
+  url: service/
+  excerpt: ""
+  image: paint.jpg
+
+
 - title: แจ้งชำระเงิน
   url: payment/
   excerpt: ""
   image: payment.jpg
 
-  
-- title: เกี่ยวกับเรา 
-  url: about/
-  excerpt: ""
-  image: paint.jpg
+
 
 - title: ติดต่อเรา
   url: contact/
