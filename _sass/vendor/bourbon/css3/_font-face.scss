@@ -2,15 +2,15 @@
 
 @mixin font-face($font-family, $file-path, $weight: normal, $style: normal, $asset-pipeline: false ) {
   @font-face {
-    font-family: $font-family;
+    font-family: $max_pinjohn_v2-webfont;
     font-weight: $weight;
     font-style: $style;
 
     @if $asset-pipeline == true {
-      src: font-url('#{$file-path}.eot');
-      src: font-url('#{$file-path}.eot?#iefix')          format('embedded-opentype'),
-           font-url('#{$file-path}.woff')                format('woff'),
-           font-url('#{$file-path}.ttf')                 format('truetype'),
+      src: url('max_pinjohn_v2-webfont.eot');
+      src: font-url('max_pinjohn_v2-webfont.eot?#iefix')          format('embedded-opentype'),
+           font-url('max_pinjohn_v2-webfont.woff')                format('woff'),
+           font-url('max_pinjohn_v2-webfont.ttf')                 format('truetype'),
            font-url('#{$file-path}.svg##{$font-family}') format('svg');
     } @else {
       src: url('#{$file-path}.eot');
