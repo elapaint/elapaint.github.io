@@ -10,7 +10,7 @@ image:
 
 <div class="wrap" style="margin-top:3%">
 
-{% include gg.html %}
+{% include wowslider.html %}
 <br><br><br><br>
 
 <div class="titles">
