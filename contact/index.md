@@ -1,6 +1,6 @@
 ---
 layout: pagecontact
-title: "ติดต่อเรา"
+title: "Contact"
 date: 
 modified:
 excerpt:
