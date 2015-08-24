@@ -1,34 +1,34 @@
 # Site navigation links
 
-- title: คลังภาพ
+- title: Gallery
   url: media/
   excerpt: ""
   image: som.jpg
 
-- title: บล็อก
+- title: Blog
   url: articles/
   excerpt: ""
   image: blog.jpg
 
-- title: วิธีสั่งงาน
+- title: How
   url: howtoorder/
   excerpt: ""
   image: ser.jpg
 
-- title: สั่งงาน 
+- title: Order 
   url: service/
   excerpt: ""
   image: paint.jpg
 
 
-- title: แจ้งชำระเงิน
+- title: Payment
   url: payment/
   excerpt: ""
   image: payment.jpg
 
 
 
-- title: ติดต่อเรา
+- title: Contact 
   url: contact/
   excerpt: ""
   image: brush.jpg
