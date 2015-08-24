@@ -1,6 +1,6 @@
 ---
 layout: pagepayment
-title: "แจ้งการชำระเงิน"
+title: "Payment"
 date: 
 modified:
 excerpt:
