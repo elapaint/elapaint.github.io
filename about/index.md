@@ -1,6 +1,6 @@
 ---
 layout: default
-title: "เกี่ยวกับเรา"
+title: "About"
 date: 
 modified: 
 excerpt: 
