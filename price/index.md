@@ -1,6 +1,6 @@
 ---
 layout: pageprice
-title: "อัตราค่าบริการ"
+title: "Price"
 date: 
 modified:
 excerpt:
