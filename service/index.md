@@ -1,6 +1,6 @@
 ---
 layout: pageservice
-title: "กรอกข้อมูลการสั่งงานวาดภาพดิจิตอล"
+title: "Order"
 date: 
 modified:
 excerpt:
