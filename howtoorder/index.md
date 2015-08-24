@@ -1,6 +1,6 @@
 ---
 layout: howtoorder
-title: "วิธีการสั่งงานภาพวาดดิจิตอล"
+title: "How to order"
 date: 
 modified:
 excerpt:
