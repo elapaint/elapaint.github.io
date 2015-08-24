@@ -1,12 +1,12 @@
 # Footer navigation links
 
-- title: หน้าแรก
+- title: Home
   url: 
   
 
-- title: เกี่ยวกับเรา
+- title: About
   url: about/
 
-- title: ติดต่อเรา
+- title: Contact
   url: contact/
 
